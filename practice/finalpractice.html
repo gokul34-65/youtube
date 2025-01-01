@@ -1,0 +1,52 @@
+     <!DOCTYPE html>
+     <html>
+          <head>
+               <title>Twitter tweet box</title>
+               <style>
+                    .tweet-box{
+                         padding-top: 8px;
+                         padding-left: 8px;
+                         padding-bottom:8px;
+                         padding-right:8px;
+                         display: inline-block;
+                         border-radius: 10px;
+                         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+                         text-align: center;
+                    }
+                    .profile-image{
+                         width:50px;
+                         border-radius:25px;
+                         vertical-align: middle;
+                         margin-right:10px;
+                         cursor:pointer;
+                    }
+                    .tweet{
+                         display:inline-block;
+                    }
+                    .tweet-button{
+                         vertical-align: top;
+                         vertical-align: middle;
+                         margin-left: 50px;
+                         background-color: rgb(4, 157, 223);
+                         border:none;
+                         color:white;
+                         width:60px;
+                         height:35px;
+                         border-radius:30px;
+                         cursor:pointer;
+                         transition:opacity 0.15s;
+                    }
+                    .tweet-button:active{
+                         opacity:0.75;
+                    }
+
+               </style>
+          </head>
+          <body>
+               <div class="tweet-box">
+                    <img class = "profile-image" src="cat-image.jpg" alt="">
+                    <p class="tweet">What's happening??</p>
+                    <button class="tweet-button">Tweet</button>
+               </div>
+          </body>
+     </html>

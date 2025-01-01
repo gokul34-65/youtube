@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>
+               flexboxprofile
+          </title>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+          <style>
+               p{
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-family: Rubik;
+                    font-size: small;
+               }
+               img{
+                    object-fit: cover;
+                    width:40px;
+                    height:40px;
+                    border-radius:20px;
+               }
+               .container-1{
+                    display: flex;
+                    flex-direction: column;
+                    height:150px;
+                    justify-content: space-between;
+               }
+               .container-2{
+                    display: flex;
+                    flex-direction:row;
+                    width:350px;
+                    align-items: center;
+                    border-radius: 10px;
+                    transition: box-shadow 0.15s;
+                    cursor: pointer;
+               }
+               .container-2:hover{
+                    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+
+               }
+               .profile-div{
+                    margin-right: 10px;
+                    margin-top: 3px;
+                    margin-left: 3px;
+                    margin-right: 3px;
+                    align-items: center;
+               }
+               .details-div{
+                    margin-right: 100px;
+
+               }
+               .FollowButton{
+                    border:none;
+                    width:80px;
+                    height:30px;
+                    color:white;
+                    background-color: rgb(27, 176, 235);
+                    border-radius: 5px;
+                    cursor:pointer;
+                    transition: opacity 0.15s;
+               }
+               .FollowButton:hover{
+                    opacity:0.75;
+               }
+               .FollowButton:active{
+                    opacity:0.5;
+               }
+          </style>
+
+     </head>
+     <body>
+          <div class="container-1">
+               <div class="container-2">
+                    <div class="profile-div"> 
+                         <img src="cat-image.jpg" alt="">
+                    </div>
+                    <div  class="details-div">
+                         <p>Abinessh</p>
+                         <p>Student at UCEN </p>
+                    </div>
+                    <div>
+                         <button class="FollowButton">Follow</button>
+                    </div>
+                    
+               </div>
+               <div class="container-2">
+                    <div class="profile-div">
+                         <img src="catimage1.jpg" alt="">
+                    </div>
+                    <div class="details-div">
+                         <P>Ansaari</P>
+                         <P>Student at UCEN</P>
+                    </div>
+                    <div>
+                         <button class="FollowButton">Follow</button>
+                    </div>
+                    
+               </div>
+               <div class="container-2">
+                    <div class="profile-div">
+                         <img src="catimage2.jpg" alt="">
+                    </div>
+                    <div class="details-div">
+                        <p>Ayyub</p> 
+                        <p>Student at UCEN</p>
+                    </div>
+                    <div>
+                         <button class="FollowButton">Follow</button>
+                    </div>
+               </div>
+          </div>
+          
+     </body>
+</html>
